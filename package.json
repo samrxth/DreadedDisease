@@ -1,8 +1,8 @@
 {
   "name": "covid-awareness",
-  "author": "Hunter Chang",
-  "repository": "https://github.com/codebushi/gatsby-starter-lander",
-  "version": "1.1.0",
+  "author": "Samrath 2007",
+  "repository": "https://github.com/samrath2007/covid-awareness-site",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
@@ -11,7 +11,6 @@
   "dependencies": {
     "@types/react-helmet": "^6.1.2",
     "gatsby": "^3.0.3",
-    "gatsby-plugin-emotion": "^6.0.0",
     "gatsby-theme-codebushi": "^1.0.0",
     "react": "^17.0.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
@@ -20,14 +19,9 @@
     "tailwind-glassmorphism": "^1.0.6"
   },
   "devDependencies": {
-    "eslint": "^7.21.0",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-import": "^2.19.1",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-react": "^7.17.0",
-    "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.2.1"
+  },
+  "installConfig": {
+    "pnp": true
   }
 }
