@@ -4,13 +4,9 @@ import React from 'react';
 import Button from '../components/Button';
 import Layout from '../components/layout/Layout';
 import HeroImage from '../svg/HeroImage';
-import {Helmet} from 'react-helmet';
 
 const Index = () => (
   <Layout>
-    <Helmet>
-      <title>Infection Prevention</title>
-    </Helmet>
     <section className="pt-20 md:pt-40 md:pl-32 pb-4">
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
@@ -22,11 +18,9 @@ const Index = () => (
             prevent such a thing happening we must take precaution
           </p>
           <p className="mt-8 md:mt-12">
-            <Link
-              to="/precautions"
-            >
+            <Link to="/precautions">
               <Button size="lg">
-                <h3 className="text-md md:text-xl lg:text-2xl">Learn more about the precautions</h3>
+                <h3 className="text-lg md:text-xl lg:text-2xl">Learn more</h3>
               </Button>
             </Link>
           </p>

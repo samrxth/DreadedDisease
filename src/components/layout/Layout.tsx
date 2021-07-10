@@ -1,14 +1,20 @@
 import React from 'react';
 import Header from './Header';
+import {Helmet} from 'react-helmet';
 
 type LayoutProps = {
-  children: React.ReactNode,
-  route ?: string
-}
+  children: React.ReactNode;
+  route?: string;
+};
+
 const Layout = (props: LayoutProps) => {
   return (
     <>
-      {props.route? <Header route={props.route}/>: <Header />}
+      <Helmet>
+        <title>The Dreaded Disease</title>
+      </Helmet>
+
+      {props.route ? <Header route={props.route} /> : <Header />}
       <main className="text-gray-900">{props.children}</main>
     </>
   );
