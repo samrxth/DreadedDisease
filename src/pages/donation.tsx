@@ -1,12 +1,16 @@
 import React from 'react';
 // import Button from '../components/Button';
 import Card from '../components/Card';
-import DonationData from '../data/DonationData'
+import DonationData from '../data/DonationData';
 import Layout from '../components/layout/Layout';
 
 const Donation = () => (
   <Layout>
     <div className="h-screen">
+      <div className="mx-auto text-center pt-10">
+        <h2 className="text-5xl font-semibold text-primary-lighter">Donation</h2>
+      </div>
+
       <div
         className="
         p-10
@@ -19,13 +23,17 @@ const Donation = () => (
           bg-white
       "
       >
-        {
-          DonationData.map((i) => {
-            return (
-              <Card key={i.key} title={i.title} description={i.description} externalUrl={i.url} imageUrl={i.imgSource} />
-            )
-        })
-        }
+        {DonationData.map((i) => {
+          return (
+            <Card
+              key={i.key}
+              title={i.title}
+              description={i.description}
+              externalUrl={i.url}
+              imageUrl={i.imgSource}
+            />
+          );
+        })}
       </div>
     </div>
   </Layout>

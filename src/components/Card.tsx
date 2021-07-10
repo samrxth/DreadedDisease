@@ -21,9 +21,9 @@ const Card = (props: CardProps) => (
           bg-white
         "
   >
-    <div className="flex p-5 inline-block">
+    <div className="flex p-5 inline-block h-48">
       <a href={props.externalUrl}>
-        <img className="w-full mb-auto mt-auto" src={props.imageUrl} alt="" />
+        <img className="w-full mb-auto mt-auto object-contain h-48" src={props.imageUrl} alt="" />
       </a>
     </div>
     <div className="px-6 py-4 pt-10">
@@ -33,7 +33,10 @@ const Card = (props: CardProps) => (
         </div>
       </a>
       <p className="text-gray-700 pb-2">{props.description}</p>
+
+      <a href={props.externalUrl}>
       <Button>Visit their website</Button>{' '}
+      </a>
     </div>
   </div>
 );
