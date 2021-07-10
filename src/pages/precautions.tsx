@@ -11,56 +11,23 @@ const Precautions = () => {
         <title>Infection Prevention</title>
       </Helmet>
 
-      <div className="bg-gray-900">
+      <div className="h-screen bg-gray-900">
         <div className="container mx-auto text-center pt-20">
-          <h2 className="text-4xl md:text-6xl font-semibold text-primary-lighter">
-            Precautions
-          </h2>
+          <h2 className="text-6xl font-semibold text-primary-lighter">Precautions</h2>
+          <h3 className="text-3xl md:text-4xl font-semibold leading-tight pt-6 pb-10 text-white">
+            Wear a mask
+          </h3>
+          <h3 className="text-3xl md:text-4xl font-semibold leading-tight pt-6 pb-10 text-white">
+            Get vaccinated
+          </h3>
+          <h3 className="text-3xl md:text-4xl font-semibold leading-tight pt-6 pb-10 text-white">
+            Avoid Crowds
+          </h3>
+          <h3 className="text-3xl md:text-4xl font-semibold leading-tight pt-6 pb-10 text-white">
+            Go out only when necessary
+          </h3>
         </div>
-        </div>
-      <SplitSection
-        id="services"
-        dark
-        primarySlot={
-          <div className="lg:pr-20 xl:pr-32">
-            <h3 className="text-3xl md:text-4xl font-semibold leading-tight">Wear a mask</h3>
-            <p className="text-md md:text-xl font-light leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua.
-            </p>
-          </div>
-        }
-        secondarySlot={<MaskWearing />}
-      />
-      <SplitSection
-        reverseOrder
-        id="services"
-        primarySlot={
-          <div className="lg:pr-20 xl:pr-32">
-            <h3 className="text-3xl md:text-4xl font-semibold leading-tight">Wear a mask</h3>
-            <p className="text-md md:text-xl font-light leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua.
-            </p>
-          </div>
-        }
-        secondarySlot={<MaskWearing />}
-      />
-      <SplitSection
-        dark
-        noBottomPadding
-        id="services"
-        primarySlot={
-          <div className="lg:pr-20 xl:pr-32">
-            <h3 className="text-3xl md:text-4xl font-semibold leading-tight">Wear a mask</h3>
-            <p className="text-md md:text-xl font-light leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua.
-            </p>
-          </div>
-        }
-        secondarySlot={<MaskWearing />}
-      />
+      </div>
     </Layout>
   );
 };

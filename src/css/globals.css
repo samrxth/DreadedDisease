@@ -14,6 +14,13 @@ a:hover {
 
 @tailwind utilities;
 
+@layer utilities {
+  .text-gradient {
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
 .text-9xl {
   font-size: 14rem;
 }

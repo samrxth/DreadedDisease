@@ -1,9 +1,10 @@
 import React from 'react';
 // import Button from '../components/Button';
 import Card from '../components/Card';
+import DonationData from '../data/DonationData'
 import Layout from '../components/layout/Layout';
 
-const Index = () => (
+const Donation = () => (
   <Layout>
     <div className="h-screen">
       <div
@@ -18,10 +19,16 @@ const Index = () => (
           bg-white
       "
       >
-        <Card title="Gavi/Covax" description="" />
+        {
+          DonationData.map((i) => {
+            return (
+              <Card key={i.key} title={i.title} description={i.description} externalUrl={i.url} imageUrl={i.imgSource} />
+            )
+        })
+        }
       </div>
     </div>
   </Layout>
 );
 
-export default Index;
+export default Donation;

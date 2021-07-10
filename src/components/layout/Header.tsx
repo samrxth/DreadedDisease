@@ -15,7 +15,7 @@ const Header = (props: HeaderProps) => (
           <div className="w-12 mr-3">
             <LogoIcon/>
           </div>
-          <p className="hidden sm:block">Infection Prevention</p>
+          <p className="hidden sm:block">The Dreaded Disease</p>
         </div>
       </Link>
       <div>
