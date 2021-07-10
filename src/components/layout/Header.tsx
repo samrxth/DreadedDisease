@@ -3,8 +3,12 @@ import React from 'react';
 import LogoIcon from '../../svg/LogoIcon';
 import Button from '../Button';
 
-const Header = () => (
-  <header className="sticky top-0 shadow glassmorphism-75 z-50">
+type HeaderProps = {
+  route ?: string
+}
+
+const Header = (props: HeaderProps) => (
+  <header className={`sticky top-0 shadow ${props.route?(props.route === '/precautions'?"glassmorphism-75": "glassmorphism-50"): "glassmorphism-50"} z-50`}>
     <div className="container flex flex-row justify-between items-center mx-auto py-4 px-8">
       <Link to="/">
         <div className="flex items-center text-2xl">

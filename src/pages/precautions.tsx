@@ -6,7 +6,7 @@ import {Helmet} from 'react-helmet';
 
 const Precautions = () => {
   return (
-    <Layout>
+    <Layout route="/precautions">
       <Helmet>
         <title>Infection Prevention</title>
       </Helmet>
