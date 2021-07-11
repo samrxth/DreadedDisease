@@ -14,8 +14,8 @@ const Index = () => (
             Preventing the third wave
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            The second wave has had a drastic effect on people with very high covid cases, to
-            prevent such a thing happening we must take precaution
+            Loss of life and livelihood are a few calamities that befell upon us in the second wave
+            of Covid-19. To prevent such a thing happening again we must take adequate precautions
           </p>
           <p className="mt-8 md:mt-12">
             <Link to="/precautions">
@@ -35,7 +35,7 @@ const Index = () => (
       <div className="py-24 px-6">
         <h3 className="text-5xl font-semibold text-white">Want to help people fight covid 19?</h3>
         <p className="mt-10">
-          <Link to="https://help.unicef.org/in/covid/jeevanrath?campaignID=7011i000000hyrIAAQ&campaignid=13613160620&adgroupid=123562181403&adid=530358488399">
+          <Link to="/donation">
             <Button size="xl">
               <h2 className="text-xl">Donate Now</h2>
             </Button>

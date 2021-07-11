@@ -33,12 +33,12 @@ const Precautions = () => {
           primarySlot={
             <div className="lg:pr-20 xl:pr-32">
               <h3 className="text-3xl md:text-4xl font-semibold leading-tight">
-                Avoid Crowds/Social Distancing
+                Social Distancing
               </h3>
-              <p className="text-md md:text-xl text-gray-600 leading-relaxed">
-                Social distancing is mandatory for safeguard yourself from highly contaminated
-                virus. So keep yourself safe from large gathering and try to maintain safe distance
-                from unknown person.
+              <p className="text-md md:text-xl text-gray-700 leading-relaxed">
+                When there are large gatherings, the chances of the virus spreading quickly and to
+                many people are highly likely. Practicing social distancing helps to reduce
+                opportunities for disease transmission.
               </p>
             </div>
           }

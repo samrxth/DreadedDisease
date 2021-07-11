@@ -9,6 +9,7 @@
     "build": "gatsby build"
   },
   "dependencies": {
+    "@types/react": "^17.0.14",
     "@types/react-helmet": "^6.1.2",
     "gatsby": "^3.0.3",
     "gatsby-theme-codebushi": "^1.0.0",
