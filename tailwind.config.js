@@ -1,4 +1,5 @@
 module.exports = {
+  purge: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
       colors: {
@@ -8,7 +9,7 @@ module.exports = {
           darker: 'hsl(207, 73%, 44%)',
         },
       },
-    }
+    },
   },
   variants: {},
   plugins: [require('tailwind-glassmorphism')],
