@@ -32,7 +32,7 @@ const Index = () => (
     </section>
 
     <section className="bg-gray-900 text-center" id="donation">
-      <div className="py-24 px-6">
+      <div className="pb-24 pt-10 px-6">
         <h3 className="text-5xl font-semibold text-white">Want to help people fight covid 19?</h3>
         <p className="mt-10">
           <Link to="/donation">
