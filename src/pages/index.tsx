@@ -30,7 +30,7 @@ const Index = () => (
         </Zoom>
       </div>
     </section>
-    <iframe src="https://ourworldindata.org/grapher/total-cases-covid-19?tab=map" width="100%" height="600px" className="md:p-20"></iframe>
+    <iframe src="https://ourworldindata.org/grapher/total-cases-covid-19?tab=map" width="100%" height="600px" className="md:p-20 sm:p-10"></iframe>
 
     <section className="text-center bg-gray-900" id="donation">
       <div className="px-6 pt-10 pb-24">
