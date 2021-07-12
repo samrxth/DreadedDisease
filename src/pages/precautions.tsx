@@ -97,9 +97,7 @@ const Precautions = () => {
                         Always cover your mouth and nose with a tissue when you cough or sneeze, or
                         use the inside of your elbow and do not spit.
                       </li>
-                      <li className="pt-4">
-                        Throw used tissues in the trash.
-                      </li>
+                      <li className="pt-4">Throw used tissues in the trash.</li>
                     </ul>
                   </li>
                 </ul>

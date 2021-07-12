@@ -7,10 +7,10 @@ const sizes = {
 };
 
 type ButtonProps = {
-  children: React.ReactNode,
-  className ?: string,
-  size ?: string
-}
+  children: React.ReactNode;
+  className?: string;
+  size?: string;
+};
 const Button = (props: ButtonProps) => {
   return (
     <button

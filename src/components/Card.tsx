@@ -35,7 +35,7 @@ const Card = (props: CardProps) => (
       <p className="text-gray-700 pb-2">{props.description}</p>
 
       <a href={props.externalUrl}>
-      <Button>Visit their website</Button>{' '}
+        <Button>Visit their website</Button>{' '}
       </a>
     </div>
   </div>

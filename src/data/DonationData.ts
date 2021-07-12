@@ -1,5 +1,5 @@
 const DonationData = [
-    {
+  {
     key: 1,
     title: 'UNICEF',
     description:
@@ -23,7 +23,6 @@ const DonationData = [
     imgSource: '/static/salvation_army.png',
     url: 'https://give.salvationarmyusa.org/give/276832/#!/donation/checkout',
   },
-
 ];
 
 export default DonationData;
