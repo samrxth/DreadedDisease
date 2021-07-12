@@ -80,6 +80,7 @@ const Precautions = () => {
         <SplitSection
           id="masks"
           dark
+          noBottomPadding
           primarySlot={
             <div className="lg:pr-20 xl:pr-32">
               <h3 className="text-3xl font-semibold leading-tight md:text-4xl">Wear masks</h3>

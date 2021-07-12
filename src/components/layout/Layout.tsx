@@ -15,7 +15,10 @@ const Layout = (props: LayoutProps) => {
       </Helmet>
 
       {props.route ? <Header route={props.route} /> : <Header />}
-      <main className="text-gray-900">{props.children}</main>
+      <main className="text-gray-900">{props.children}
+
+      </main>
+        <p className="py-10 text-center text-gray-500">Made by <a href="https://github.com/samrath2007/">Samrath Singh Chadha</a></p>
     </>
   );
 };
