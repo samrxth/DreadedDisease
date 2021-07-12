@@ -15,7 +15,7 @@ const Index = () => (
           </h1>
           <p className="mt-6 text-xl font-light lg:text-2xl">
             Loss of life and livelihood are a few calamities that befell upon us in the second wave
-            of Covid-19. To prevent such a thing happening again we must take adequate{' '}
+            of Covid-19. In 2020 alone there were roughly 84 million reported cases of Covid-19. To prevent such a thing happening again we must take adequate{' '}
             <Link to="/precautions">precautions.</Link>
           </p>
           <p className="mt-8 md:mt-12">
