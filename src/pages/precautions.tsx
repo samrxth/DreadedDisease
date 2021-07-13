@@ -50,7 +50,7 @@ const Precautions = () => {
           id="masks"
           dark
           primarySlot={
-            <div className="lg:pr-20 xl:pr-32">
+            <div className="py-40 lg:pr-20 xl:pr-32">
               <h3 className="text-3xl font-semibold leading-tight md:text-4xl">Wear masks</h3>
               <p className="leading-relaxed text-gray-400 text-md md:text-xl">
                 Masks are a simple barrier to help prevent your respiratory droplets from reaching
@@ -82,8 +82,8 @@ const Precautions = () => {
           dark
           noBottomPadding
           primarySlot={
-            <div className="lg:pr-20 xl:pr-32">
-              <h3 className="text-3xl font-semibold leading-tight md:text-4xl">Wear masks</h3>
+            <div className="py-24 lg:pr-20 xl:pr-32">
+              <h3 className="text-3xl font-semibold leading-tight md:text-4xl">Cover your mouth while coughing</h3>
               <p className="leading-relaxed text-gray-400 text-md md:text-xl">
                 <ul className="list-disc list-outside">
                   <li className="pt-4">

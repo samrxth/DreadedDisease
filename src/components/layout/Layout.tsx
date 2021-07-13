@@ -14,8 +14,8 @@ const Layout = (props: LayoutProps) => {
         <title>The Dreaded Disease</title>
       </Helmet>
 
-      {props.route ? <Header route={props.route} /> : <Header />}
-      <main className="text-gray-900">{props.children}</main>
+        {props.route ? <Header route={props.route} /> : <Header />}
+        <main className="flex-1 overflow-y-auto text-gray-900">{props.children}</main>
     </>
   );
 };
