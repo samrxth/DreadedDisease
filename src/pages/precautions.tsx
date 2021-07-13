@@ -9,7 +9,7 @@ import Coughing from '../svg/Coughing';
 
 const Precautions = () => {
   return (
-    <Layout route="/precautions">
+    <Layout noCredit route="/precautions">
       <div className="h-screen bg-gray-900">
         <div className="pt-20 mx-auto text-center">
           <h2 className="text-6xl font-semibold text-primary-lighter">Precautions</h2>
@@ -106,6 +106,10 @@ const Precautions = () => {
           }
           secondarySlot={<Coughing />}
         />
+
+        <p className="py-10 text-center text-gray-500">
+          Made by <a href="https://github.com/samrath2007/">Samrath Singh Chadha</a>
+        </p>
       </div>
     </Layout>
   );
