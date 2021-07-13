@@ -1,21 +1,27 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from './Header';
 import { Helmet } from 'react-helmet';
+import ReactGA from 'react-ga';
 
 type LayoutProps = {
   children: React.ReactNode;
-  route?: string;
 };
 
+ReactGA.initialize('G-410KJV89QC');
+
 const Layout = (props: LayoutProps) => {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  }, []);
+
   return (
     <>
       <Helmet>
         <title>The Dreaded Disease</title>
       </Helmet>
 
-        {props.route ? <Header route={props.route} /> : <Header />}
-        <main className="flex-1 overflow-y-auto text-gray-900">{props.children}</main>
+      <Header />
+      <main className="flex-1 overflow-y-auto text-gray-900">{props.children}</main>
     </>
   );
 };
