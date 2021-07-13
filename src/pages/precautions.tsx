@@ -33,11 +33,11 @@ const Precautions = () => {
           id="social-distancing"
           reverseOrder
           primarySlot={
-            <div className="lg:pr-20 xl:pr-32">
+            <div className="lg:pr-20 xl:pr-32 lg:pl-10">
               <h3 className="text-3xl font-semibold leading-tight md:text-4xl">
                 Social Distancing
               </h3>
-              <p className="leading-relaxed text-gray-700 text-md md:text-xl">
+              <p className="pt-2 leading-relaxed text-gray-700 text-md md:text-xl">
                 When there are large gatherings, the chances of the virus spreading quickly and to
                 many people are highly likely. Practicing social distancing helps to reduce
                 opportunities for disease transmission.
