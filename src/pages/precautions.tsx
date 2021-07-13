@@ -9,7 +9,7 @@ import Coughing from '../svg/Coughing';
 
 const Precautions = () => {
   return (
-    <Layout noCredit route="/precautions">
+    <Layout route="/precautions">
       <div className="h-screen bg-gray-900">
         <div className="pt-20 mx-auto text-center">
           <h2 className="text-6xl font-semibold text-primary-lighter">Precautions</h2>
