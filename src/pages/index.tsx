@@ -10,6 +10,7 @@ const Index = () => (
     <section className="pt-20 pb-4 md:pt-40 md:pl-32">
       <div className="container px-8 mx-auto lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
+          <p className="text-lg sm:hidden text-primary-darker">The Dreaded Disease</p>
           <h1 className="text-4xl font-bold leading-none lg:text-5xl xl:text-6xl">
             Preventing the third wave
           </h1>

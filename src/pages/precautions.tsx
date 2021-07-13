@@ -21,7 +21,7 @@ const Precautions = () => {
             <div className="lg:pr-20 xl:pr-32">
               <h3 className="text-3xl font-semibold leading-tight md:text-4xl">Get Vaccinated</h3>
               <p className="leading-relaxed text-gray-400 text-md md:text-xl">
-                Covid-19 vaccines producie antibodies to the coronavirus. These antibodies help your
+                Covid-19 vaccines produce antibodies to the coronavirus. These antibodies help your
                 immune system fight the virus if you happen to be exposed, so it reduces your chance
                 of getting the disease.
               </p>
