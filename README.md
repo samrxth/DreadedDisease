@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/samrath2007/DreadedDisease/readme/public/static/logo.png" />
+<img src="https://github.com/samrath2007/DreadedDisease/blob/main/public/static/logo.png?raw=true" />
 </p>
 
 <h1 align="center">The Dreaded Disease</h1>
