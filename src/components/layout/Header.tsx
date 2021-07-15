@@ -4,9 +4,7 @@ import LogoIcon from '../../svg/LogoIcon';
 import Button from '../Button';
 
 const Header = () => (
-  <nav
-    className="sticky top-0 z-50 glassmorphism-75"
-  >
+  <nav className="sticky top-0 z-50 glassmorphism-75">
     <div className="container flex flex-row items-center justify-between px-8 py-4 mx-auto">
       <Link to="/">
         <div className="flex items-center text-2xl">
