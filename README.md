@@ -4,4 +4,4 @@
 
 <h1 align="center">The Dreaded Disease</h1>
 <h2> Introduction </h2>
-<p align="center">Join us in raising awareness</p>
+<p align="center">Rasing awareness on Covid-19 one person at a time</p>
