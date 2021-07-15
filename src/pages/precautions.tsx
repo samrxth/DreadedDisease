@@ -18,6 +18,7 @@ const Precautions = () => {
       <SplitSection
         id="vaccines"
         dark
+        customClassName="pb-20"
         primarySlot={
           <div className="lg:pr-20 xl:pr-32">
             <h3 className="text-3xl font-semibold leading-tight md:text-4xl">Get Vaccinated</h3>
