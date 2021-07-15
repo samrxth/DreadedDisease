@@ -3,4 +3,4 @@
 </p>
 
 <h1 align="center">The Dreaded Disease</h1>
-<p align="center" style="font-size:20px">Rasing awareness on Covid-19 one person at a time</p>
+<h4 align="center">Rasing awareness on Covid-19 one person at a time</h4>
