@@ -20,6 +20,6 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint'],
   rules: {
-    'max-len': ['error', { code: 120 }],
+    'max-len': ['error', {code: 120}],
   },
 };

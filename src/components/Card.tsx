@@ -10,17 +10,10 @@ type CardProps = {
 };
 
 const Card = (props: CardProps) => (
-  <div
-    key={props.key}
-    className="overflow-hidden bg-white rounded shadow-lg  hover:shadow-md duration-1000"
-  >
+  <div key={props.key} className="overflow-hidden bg-white rounded shadow-lg  hover:shadow-md duration-1000">
     <div className="flex p-5 inline-block h-48">
       <a href={props.externalUrl}>
-        <img
-          className="w-full mb-auto mt-auto object-contain h-48"
-          src={props.imageUrl}
-          alt=""
-        />
+        <img className="w-full mb-auto mt-auto object-contain h-48" src={props.imageUrl} alt="" />
       </a>
     </div>
     <div className="px-6 py-4 pt-10">

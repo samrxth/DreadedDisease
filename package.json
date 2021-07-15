@@ -7,7 +7,7 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "lint": "yarn run eslint . --ext .js,.ts,.tsx"
+    "lint": "yarn run eslint src/ --ext .js,.ts,.tsx"
   },
   "dependencies": {
     "@types/react": "^17.0.14",

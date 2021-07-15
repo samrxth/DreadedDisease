@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
+import React, {useEffect} from 'react';
 import Header from './Header';
-import { Helmet } from 'react-helmet';
+import {Helmet} from 'react-helmet';
 import ReactGA from 'react-ga';
 
 type LayoutProps = {
@@ -21,9 +21,7 @@ const Layout = (props: LayoutProps) => {
       </Helmet>
 
       <Header />
-      <main className="flex-1 overflow-y-auto text-gray-900">
-        {props.children}
-      </main>
+      <main className="flex-1 overflow-y-auto text-gray-900">{props.children}</main>
     </>
   );
 };
