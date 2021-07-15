@@ -17,7 +17,6 @@
     "react": "^17.0.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^17.0.1",
-    "react-ga": "^3.3.0",
     "react-reveal": "^1.2.2",
     "tailwind-glassmorphism": "^1.0.6"
   },

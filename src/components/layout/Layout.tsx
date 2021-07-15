@@ -1,13 +1,10 @@
 import React, {useEffect} from 'react';
 import Header from './Header';
 import {Helmet} from 'react-helmet';
-import ReactGA from 'react-ga';
 
 type LayoutProps = {
   children: React.ReactNode;
 };
-
-ReactGA.initialize('G-410KJV89QC');
 
 const Layout = (props: LayoutProps) => {
   useEffect(() => {
