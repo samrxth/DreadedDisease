@@ -4,3 +4,6 @@
 
 <h1 align="center">The Dreaded Disease</h1>
 <h4 align="center">Rasing awareness on Covid-19 one person at a time</h4>
+
+## License
+This project is licensed under the MIT License
