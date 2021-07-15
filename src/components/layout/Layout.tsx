@@ -7,10 +7,6 @@ type LayoutProps = {
 };
 
 const Layout = (props: LayoutProps) => {
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname);
-  }, []);
-
   return (
     <>
       <Helmet>
