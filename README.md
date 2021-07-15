@@ -10,4 +10,4 @@
 - All code must meet the `yarn run lint` checks
 - Try to keep libraries to a minimum(excluding dev dependencies)
 ## License
-This project is licensed under the MIT License
+This project is licensed under the GNU GENERAL PUBLIC LICENSE Version 2, June 1991.
