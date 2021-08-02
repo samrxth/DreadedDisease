@@ -3,7 +3,7 @@ const DonationData = [
     key: 1,
     title: 'UNICEF',
     description:
-      'UNICEF is working with partners to organize \'JEEVAN RATH\', an initiative that provides supplies to people who are unable to afford or access these supplies in sufficient quantities',
+      "UNICEF is working with partners to organize 'JEEVAN RATH', an initiative that provides supplies to people who are unable to afford or access these supplies in sufficient quantities",
     imgSource: '/static/unicef.png',
     url: 'https://help.unicef.org/in/covid/jeevanrath?campaignID=7011i000000hyrIAAQ&campaignid=13613160620&adgroupid=123562181403&adid=530358488399',
   },
@@ -19,7 +19,7 @@ const DonationData = [
     key: 3,
     title: 'Salvation Army',
     description:
-      'Salvation Army\'s goal is to serve first responders, feed the hungry, and provide other critical services',
+      "Salvation Army's goal is to serve first responders, feed the hungry, and provide other critical services",
     imgSource: '/static/salvation_army.png',
     url: 'https://give.salvationarmyusa.org/give/276832/#!/donation/checkout',
   },

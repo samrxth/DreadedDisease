@@ -18,9 +18,15 @@ const SplitSection = (props: SplitSectionProps) => (
     }`}
   >
     <div className={`pt-10 ${props.customClassName}`}>
-      <div className={`container mx-auto px-16 items-center flex flex-col lg:flex-row`}>
+      <div
+        className={`container mx-auto px-16 items-center flex flex-col lg:flex-row`}
+      >
         <div className="lg:w-1/2">{props.primarySlot}</div>
-        <div className={`mt-10 lg:mt-0 w-full lg:w-1/2 ${props.reverseOrder && `order-last lg:order-first`}`}>
+        <div
+          className={`mt-10 lg:mt-0 w-full lg:w-1/2 ${
+            props.reverseOrder && `order-last lg:order-first`
+          }`}
+        >
           <Zoom>{props.secondarySlot}</Zoom>
         </div>
       </div>
