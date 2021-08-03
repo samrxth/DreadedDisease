@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './Header';
-import { Helmet } from 'react-helmet';
+import {Helmet} from 'react-helmet';
 
 type LayoutProps = { children: React.ReactNode };
 
