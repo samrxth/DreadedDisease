@@ -1,9 +1,3 @@
-
-/*
- * DreadedDisease
- * https://github.com/samrath2007/DreadedDisease
- * */
-
 import Zoom from 'react-reveal/Zoom';
 import {Link} from 'gatsby';
 import React from 'react';
