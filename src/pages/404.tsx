@@ -1,4 +1,4 @@
-import {Link} from 'gatsby';
+import { Link } from 'gatsby';
 import React from 'react';
 import Button from '../components/Button';
 import Layout from '../components/layout/Layout';
